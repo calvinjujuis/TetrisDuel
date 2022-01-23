@@ -40,12 +40,12 @@ We also designed each special action as concrete classes inherited from the abst
 ## *High Cohesion and Low Coupling*
 Our program followed the high cohesion and low coupling designing principle. We tried to structure a module so that each of the elements in that module has functionalities that belong together and serve the same purpose (High Cohesion). We also ensured that we keep dependencies between modules as few as possible (Low Coupling). We achieved this by doing the followings:
 
-*Blocks*
+*Blocks* \
 We used a Block abstract class with a concrete subclass Baseblock. The whole Block class is responsible for one single purpose, which is the block movement. This has shown high cohesion in our code. In addition, if we wish to add more blocks to the grid, we could simply modify the Baseblocks class without the need to modify any other classes. This has shown low coupling in our code. 
 
-*Observer*
+*Observer* \
 Our initial design actually had heavy dependencies in between each display class; each time the grid changes, it notifies the TextDisplay, and the TextDisplay then notifies the GraphicsDisplay. We thought doing this would make our program more efficient. However, this design was not maintainable as we couldn’t easily modify the implementations in both of the displays when we wanted to. 
 We then used the Observer design pattern where we linked both of the displays to an abstract Observer class. We stored pointers to the two observers in the Grid and the Grid calls notify on displays if needed. By doing this, if we wanted to change something in one display, we could simply do so without worrying that it might affect the other display. Even if we wanted to add another display, we could just write another concrete class under Observer and store a pointer to it in the Grid.
 
-*Levels*
+*Levels* \
 Similar to the Blocks class, Level 0 to Level 5 are concrete subclasses, which are only responsible for creating the nextblock based on the grid’s current level. This design has made our code more maintainable when we wish to add more levels.
