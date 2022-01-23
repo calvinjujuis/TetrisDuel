@@ -1,8 +1,9 @@
 # TetrisDuel
 
 # Introduction
-Two players are able to follow the classic Tetris rules and take turns to compete.
-This is a non-runtime game with a text display on command line and a graphics display on X11.
+This is a C++ Tetris game where two players are able to follow the classic Tetris rules and take turns to compete. \
+Check out rules here: [Demo](https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo.pdf) \
+<img src="https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo%20Gameplay.png" width="400" height="420" />
 
 # Overview
 The program starts from the main function where all the commands are read in. Then, it calls the corresponding methods from the Controller class.  
