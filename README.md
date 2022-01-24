@@ -1,10 +1,12 @@
 # TetrisDuel
 
 # Introduction
-This is a C++ Tetris game where two players can follow the classic Tetris rules and take turns to compete. \
-Check out the demo here: [Demo](https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo.pdf) \
+*This is a C++ Tetris game where two players can follow the classic Tetris rules and take turns to compete.* \
+*Check out demo doc here: [Demo](https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo.pdf)* \
+<img src="https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo%20Gameplay.png" width="400" height="420" /> \
+*See UML diagram here:* \
+<img src="https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/UML%20Diagram.jpg" width="700" height="466" />
 \
-<img src="https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo%20Gameplay.png" width="400" height="420" />
 
 # Overview
 The program starts from the main function where all the commands are read in. Then, it calls the corresponding methods from the Controller class.  
