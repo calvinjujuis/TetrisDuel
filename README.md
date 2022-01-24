@@ -1,8 +1,8 @@
 # TetrisDuel
 
 # Introduction
-This is a C++ Tetris game where two players are able to follow the classic Tetris rules and take turns to compete. \
-Check out rules here: [Demo](https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo.pdf) \
+This is a C++ Tetris game where two players can follow the classic Tetris rules and take turns to compete. \
+Check out the demo here: [Demo](https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo.pdf) \
 \
 <img src="https://github.com/calvinjujuis/TetrisDuel/blob/main/readme/Demo%20Gameplay.png" width="400" height="420" />
 
